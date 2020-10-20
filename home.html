@@ -1,14 +1,181 @@
 <!doctype html>
 
 <html>
+  <main>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Redesign Case Study: The Golden Gate Fortune Cookie Factory</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+  
+    <h1 class= "title">Redesign Case Study:</h1>
+    <h1 class= "title-accent">The Golden Gate Fortune Cookie Factory</h1>
+    <br>
+    <br>
+    <h3>Overview:</h3>
+    <p>In CS1300, we were asked to pick one page of a website to analyze based on usability and accessibility standards, and then to 
+      redesign and build the redesigned version of the webpage. Given the state of the world at the time, 
+      I chose the website of a local business from my hometown that is not only very close to my heart, 
+      but in desperate need of modernization in the tumultuous climate of 2020– the <b>Golden Gate Fortune Cookie Factory</b> in San Francisco. 
+    </p>
+    <br>
+    <div class= "card-container">
+      <img class= "wireframe" id= "small-image"alt= "Fortune Cookie Factory Cookies" src= "images/cookies.jpg">
+    </div>
+    <br>
+    <br>
+    <h4>Reasoning: About The Golden Gate Fortune Cookie Factory</h4>
+    <p>The Golden Gate Fortune Cookie Factory is a <b>family owned business</b> operating out of San Francisco’s Chinatown, an area that has been 
+      hit drastically due to the coronavirus pandemic. Operating since 1962, they are <b>a staple of the city’s culture and a 
+      tourist destination for visitors</b>. 
+      <br>
+      <br>
+      Chinese products and business have always been <b>stereotyped as inferior or questionable in legitimacy and quality due to a lack of 
+      adherence to western aesthetics, formatting standards, and language</b>. Through this redesign I hope to develop for the 
+      Golden Gate Fortune Cookie Factory a more modern visual brand, a welcoming persona, and an improved user experience for the people 
+      around the world that visit the website and the factory. 
+      </p>
+      <br>
+    <hr>
+    
+    <div class= "usability-test-section"></div>
+    <h2>Identifying Problems: Visit Page</h2>
+    <p>
+      The visit page is a crucial part of the company’s website– it is how tourists and visitors from around the world can come to navigate 
+      towards the factory. Given the complex and compact layout of Chinatown as well, it can be especially challenging to locate a small 
+      business. Analyzing the website, there were several usability and accessibility issues that were in need of redesigning.
+    </p>
+    <br>
+    <p>Visit the original website here: <a href= "https://www.goldengatefortunecookies.com/">The Golden Gate Fortune Cookie Factory</a></p>
+    <br>
+    <div class= "original-site">
+      <img class= "og-image" alt= "Screenshot of original site" src= "images/original_1.png">
+      <img class= "og-image" alt= "Screenshot of original site's location content" src= "images/original_2.png">
+      <img class= "og-image" alt= "Screenshot of original site's instruction content" src= "images/original_3.png">
+    </div>
+  
+
+    <div class= "card-container">
+     <div class= "card">
+      <div class= "card-header">
+          <p><b>Usability Pain Points and Problems + Key Findings</b></p>
+      </div>
+      <div class= "card-body">
+        <ul class = "card-text">
+          <li>Paragraphs collapse vertically but are no longer readable on smaller screens</li>
+          <li>Text size remains the same, so only a few words per screen</li>
+          <li>Navigation bar collapses awkwardly on the desktop view</li>
+          <li>Instructions are not clearly separated into different sections for users to find relevant direction</li>
+          <li>On smaller screens, some columns completely combine with others to make it confusing to understand. The misaligned text actually conveys false information.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    <hr>
+
+  
+    <br>
+    <div class= "accessibility-section">
+    <h2>Acessibility</h2>
+    <p>In addition to the usability issues I observed, I ran the factory's website through accessibility tests, namely WebAim Wave and Mac's VoiceOver,
+      and found several  pain points and accessibility issues.</p>
+      <br>
+      <div class ="card-container">
+      <div class= "card">
+        <div class= "card-header">
+            <p><b>Accessibility Findings</b></p>
+        </div>
+      <div class= "card-body">
+        <p class= "card-text">
+          WebAim WAVE found the text on the screen to be too small, almost all of the images to be missing alternate texts, and the few 
+          alternate texts on the site being insufficient or containing extraneous information. The screenreader couldn’t read the site’s 
+          content in the correct order. Due to the overlapping of elements on the page and hard-coded formatting, it would break off 
+          mid-paragraph to read the text of an entirely different block of content. 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <br>
+    <hr>
+    <br>
+    
+    <h2>Visual Redesign Process</h2>
+    <p>
+      With these usability and accessibility issues in mind, I started on my redesign of the site. Using <b>Invision</b>, I created three 
+      low-fidelity wireframes of a new site that would address each of the discovered issues. I liked how quick and simple Invision
+      was to use, but definitely wished they had a "Layers" panel like Figma, which would have saved me much time and effort. Overall,
+      it was still great to be able to sketch out the skeleton of my site quickly.
+    </p>
+    <br>
+    <h4>Low-fidelity Wireframe</h4>
+    <div class= "card-container">
+      <img class= "wireframe" alt= "Low-fidelity mockup of redesign" src= "images/low-fidelity.png">
+    </div>
+    <br>
+    <br>
+    <p>From these low-fidelity wireframes, I created three high-fidelity wireframes of the site with <b>Figma</b>, one for each screensize of either 
+      a desktop, an iPad, or an iPhone, all while keeping in mind how the design would be achieved via HTML and CSS. It was super fun 
+      to play around on Figma, as well as reinvent the visual brand of the factory. 
+    </p>
+    <br>
+    <h4>High-fidelity Wireframe</h4>
+    <div class= "card-container">
+      <img class= "wireframe" alt= "High-fidelity mockup of redesign" src= "images/high-fidelity.png">
+    </div>
+    <br>
+    <br>
+    <hr>
+    <h2>Visual Design Style Guide</h2>
+    <p>
+      While designing, I developed a design system to keeping the interactions consistent throughout a product, ensuring cohesive and visually
+      memorable experience. 
+    </p>
+    <br>
+    <div class= "card-container">
+      <img class= "wireframe" alt= "Visual Design Style Guide" src= "images/style-guide.png">
+    </div>
+    <br>
+    <hr>
+
+    <h2>Responsive Redesign</h2>
+    <p>From these wireframes I created the final website, viewable <a href= "https://floating-gorge-36246.herokuapp.com/">here<a>.</p>
+
+      <h3>Final Redesign Observations</h3>
+
+    <p>With this new redesign, the website is fully responsive to every screen size. Crucial information is well formatted into their 
+      respective sections and containers, making it easy for users to identify and follow the information that is most relevant to them. 
+      The visual brand of the website is matched with the company’s real life store, and is welcoming and friendly. Font sizes and 
+      the entire layout of the website adapt  to different device and browser sizes. This will all make it much easier for visitors to 
+      access information and visit the factory.
+    </p>
+
+
+    <br>
+    <h2>Takeaways + Lessons Learned:</h2>
+    <p>This was my first time having to redesign the entire page of a website, as well as having to code a responsive website.
+      Once again, a deep dive into "doing," in this case jumping right in to coding with HTML and CSS, expedited the learning
+      process and I am now much more comfortable with making responsive sites and using HTML and CSS in general.
+    </p>
+    <p>
+      It was also super meaningful for me to have th opportunity to redesign the website of a factory that is so close to home in 
+      my heart. To help an Asian local family-owned business is something I could contribute more to, especially considering the 
+      considerable detriment that community has faced in light of the COVID-19 pandemic. I'm very thankful to have gotten to complete
+      this project!
+    </p>
+    <br>
+    <br>
+    <br>
+
   </body>
+  <footer>
+    Made with <span class ="heart">&#12092;</span> in Providence
+  </footer>
+</main>
 </html>
