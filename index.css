@@ -54,6 +54,8 @@ hr {
     width: 90%;
 }
 
+/* To expand the images*/
+
 .wireframe:hover {
     color: #424242; 
     -webkit-transition: all .3s ease-in;
