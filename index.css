@@ -16,9 +16,7 @@ h1, h2, h3, h4, p, ol, li, footer {
 hr {
     margin-bottom: 40px;
 }
-.title-accent {
-    font-weight: 00;
-}
+
 
 .original-site {
     display: flex;
@@ -86,6 +84,6 @@ footer {
 
 @media(max-width:1000) {
     .h1 {
-        font-size: 12px;
+        font-size: 0.8rem;
     }
 }
